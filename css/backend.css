@@ -1,0 +1,64 @@
+.ptc-settings-wrap input[type=text] {
+    width: 340px;
+}
+
+/**
+ * ptc main style file
+ *
+ */
+ 
+ ul.ptc-tabs{
+ 	margin: 0px;
+ 	padding: 0px;
+ 	list-style: none;
+ 	background: #9ca1a6;
+ }
+ ul.ptc-tabs li{
+ 	background: none;
+ 	color: #fff;
+ 	display: inline-block;
+ 	padding: 10px 15px;
+ 	cursor: pointer;
+ 	margin-top: 0px;
+ 	margin-bottom: 0px;
+ }
+
+ ul.ptc-tabs li.ptc-current{
+ 	background: #0073aa;
+ 	color: #fff;
+ }
+
+ .ptc-tab-content{
+ 	display: none;
+ 	background: #fff;
+ 	padding: 15px;
+ }
+
+ .ptc-tab-content.ptc-current{
+ 	display: inherit;
+ }
+
+ .ptc-main-wrapper {
+ 	width: 80%;
+ }
+
+ .ptc-main-title{
+ 	margin-top:10px;
+ 	padding: 20px;
+ 	background-color: #0073aa;
+ 	border-top-left-radius: 5px;
+ 	border-top-right-radius: 5px;
+ 	color: #fff;
+ 	font-size: x-large;
+ }
+ 
+ .ptc-settings-wrap table td p{
+    width: 331px;
+    background: #ddd;
+    padding: 5px;
+    font-size: 11px;
+ }
+ .ptc-settings-wrap table td p span{
+    font-style: italic;
+ }
+ 

@@ -1,0 +1,114 @@
+#ptcCCForm,#ptcCCForm *{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+#ptcCCForm input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not([type="button"]):not([type="file"]),#ptcCCForm select{
+    padding: 8px;
+    outline: 0;
+    border: 0px solid #d9d9d9;
+    box-shadow: 0 0 0 1px #d9d9d9;
+    -webkit-transition: all .30s ease-in-out;
+    -moz-transition: all .30s ease-in-out;
+    -ms-transition: all .30s ease-in-out;
+    -o-transition: all .30s ease-in-out;
+    font-size: 13px;
+    line-height: 16px;
+    font-family: arial;
+    height:34px;
+    width:100%;
+}
+#ptcCCForm input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not([type="button"]):not([type="file"]):focus,#ptcCCForm select:focus{
+    box-shadow: 0 0 0 2px #a8a8a8;
+    border:0px solid #a8a8a8;
+}
+#ptcCCForm [class^="col-"],#ptcCCForm [class*=" col-"]{
+    margin-bottom:15px;
+}
+#ptcCCForm label{
+    font-weight:600;
+    font-family: arial;
+    font-size: 13px;
+    margin-bottom:5px;
+}
+#ptcCCForm label.field_label{
+    font-size:20px;
+}
+#ptcCCForm input[type="button"],#ptcCCForm input[type="submit"]{
+    -moz-box-shadow: inset 0px 1px 0px 0px #790000;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #790000;
+    box-shadow: inset 0px 1px 0px 0px #790000;
+    background-color: #790000;
+    border: 1px solid #790000;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding: 8px 18px;
+    text-decoration: none;
+    font: 12px Arial, Helvetica, sans-serif;
+}
+#ptcCCForm input[type="button"]:hover,#ptcCCForm input[type="submit"]:hover{
+    background-color: #460000;
+}
+#ptcCCForm input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #999999;
+}
+#ptcCCForm input::-moz-placeholder { /* Firefox 19+ */
+  color: #999999;
+}
+#ptcCCForm input:-ms-input-placeholder { /* IE 10+ */
+  color: #999999;
+}
+#ptcCCForm input:-moz-placeholder { /* Firefox 18- */
+  color: #999999;
+}
+#ptcCCForm .validation_message{
+    font-size:13px;
+    color:#790000;
+    margin-top:4px;
+}
+#ptcCCForm .ptc-error{
+    box-shadow: 0 0 0 2px #790000 !important;
+}
+#ptcCCForm label .radio_label input[type="checkbox"]{
+    margin-top:3px;
+}
+#ptcCCForm .row{
+    margin:0px -15px;
+}
+#ptcCCForm .row:before,#ptcCCForm .row:after{
+    display:table;
+    content: " ";
+}
+#ptcCCForm .row:after{
+    clear:both;
+}
+#ptcCCForm .col-one,#ptcCCForm .col-two{
+    float: left;
+    padding:0px 15px;
+}
+#ptcCCForm .col-one{
+    width:100%;
+}
+#ptcCCForm .col-two{
+    width:50%;
+}
+.ptc-append-error.validation_message span{
+    text-align:center;
+    margin-bottom:25px;
+    display: block;
+    height:34px;
+    border:1px solid #790000;
+    padding: 7px;
+    border-radius:3px;
+    background: rgba(121, 0, 0, 0.05);
+}
+
+
+@media(max-width:480px){
+    #ptcCCForm .col-one,#ptcCCForm .col-two{
+        width: 100%;
+    }
+}
+
+

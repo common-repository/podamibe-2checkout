@@ -1,0 +1,5 @@
+For removing the country use this filter in your functions.php -
+
+add_filter('remove_country_key',function(){return array('AFG','ALA');});
+
+add_filter('ptc_country_label', function(){return 'Select';});
